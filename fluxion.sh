@@ -5,7 +5,7 @@
 # ============================================================ #
 # Path to directory containing the FLUXION executable script.
 readonly FLUXIONPath=$(dirname $(readlink -f "$0"))
-
+###
 # Path to directory containing the FLUXION library (scripts).
 readonly FLUXIONLibPath="$FLUXIONPath/lib"
 
